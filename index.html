@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>أسيل العرجان | الملف التقني</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #00e6ff;
+            --secondary-color: #08b1a5;
+            --bg-dark: #0f2027;
+            --card-bg: rgba(255, 255, 255, 0.08);
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #ffffff;
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-bottom: 2px solid var(--primary-color);
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px var(--primary-color);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 230, 255, 0.2);
+            border-color: var(--primary-color);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: padding-right 0.3s ease;
+        }
+
+        ul li:hover {
+            padding-right: 15px;
+            color: var(--primary-color);
+        }
+
+        ul li::before {
+            content: "✦";
+            color: var(--primary-color);
+            margin-left: 10px;
+        }
+        .social-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .social-link:hover {
+            background: var(--primary-color);
+            color: var(--bg-dark);
+            font-weight: bold;
+            transform: scale(1.05);
+        }
+
+        .social-link i {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>أسيل العرجان</h1>
+    <p>  شابة أردنية | مهتمة في عالم التكنولوجيات وصناعة المستقبل🇯🇴</p>
+</header>
+
+<section>
+    <div class="card">
+        <h2><i class="fas fa-user-astronaut"></i> من أنا</h2>
+        <p>
+             <strong>أسيل العرجان</strong>  
+        </p>
+        <p> أنا أسيل العرجان عمري 17 سنة طالبة توجيهي من نظام البيتك تكنولوجيا المعلومات أؤمن بأن التكنولوجيا أداة قوية للتغيير بدا شغفي بالتكنولوجيا من عمر صغير جدا كنت اشاهد فيديوهات للروبوتات وكنت اسال نفسي سؤال بسيط مع الوقت اكتشفت ان الشغف مش صدفة وانه اول خطوة في طريق طويل مليء بالتعلم والانجازات كل مهارة جديدة كنت اتعلمها كانت تفتحلي باب وكل باب كان يورجيني جانب جديد من قدرتي اني اكون جزء من مستقبل الاردن الرقمي كبرت ومع كل سنة كان يكبر حلمي وكل ما تعمقت اكثر في عالم التكنولوجيا اكتشفت انه هذا المجال مش بس ممتع هو مجال يغير الواقع ويبني مجتمعات ويحرك اقتصاد دول كاملة ليش مو انا اقدر اعمل روبوت بحب احضر ورشات تدريبية واشارك في ملتقيات لاتعرف على اشخاص ناجحين واتعلم منهم ونتبادل الخبرات لان التعلم المستمر والتواصل هو اسرع طريق للنمو والتطوير ومن رؤية سمو ولي العهد الاردن كبير فيكم وكبير بطموحكم واحنا جاهزين نكون الجيل اللي يرفع اسم بلدنا بكل مكان ويصنع مستقبله بايده ويحط الاردن في المكان اللي بستاهله عالميا <strong></strong>.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2><i class="fas fa-briefcase"></i> خبراتي ومبادراتي</h2>
+        <ul>
+            <li>إدارة المشاريع في شركة سمورتك للتكنولوجيا</li>
+            <li>مؤسسة مبادرة "ابتكر لأجل الأردن"</li>
+            <li>متحدثة شبابية حول مستقبل الأردن التكنولوجي ونظام BTEC</li>
+            <li>عضو في مبادرة "سياحتنا نهضتنا"</li>
+            <li>مشاركة فاعلة في المنتديات الشبابية لتمكين الجيل الصاعد</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2><i class="fas fa-lightbulb"></i> رؤيتي ورسالتي</h2>
+        <p>
+          أطمح إلى التخصص في التكنولوجيا وايضا مجال الروبوتات والمساهمة في بناء مستقبل رقمي آمن يخدم الأردن ويمكن الشباب من الابتكار والريادة وجعل الاردن في مقدمة الدول الرقميه
+        </p>
+        
+    </div>
+
+    <div class="card">
+        <h2><i class="fas fa-envelope-open-text"></i> تواصل معي</h2>
+        <div class="social-grid">
+            <a href="mailto:aseelhazim43@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i> البريد
+            </a>
+            <a href="https://instagram.com/aseel.techno.08" target="_blank" class="social-link">
+                <i class="fab fa-instagram"></i> إنستغرام
+            </a>
+            <a href="https://facebook.com/Aseel Alirjan" target="_blank" class="social-link">
+                <i class="fab fa-facebook"></i> فيسبوك
+            </a>
+            <a href="https://www.snapchat.com/add/aseel.alirjan12" target="_blank" class="social-link">
+                <i class="fab fa-snapchat"></i> سناب شات
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2025 أسيل العرجان | التكنولوجيا لمستقبل أفضل للأردن 🇯🇴
+</footer>
+
+</body>
+</html>
